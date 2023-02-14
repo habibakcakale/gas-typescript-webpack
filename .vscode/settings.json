@@ -1,0 +1,32 @@
+{
+  // "editor.fontSize": 15,
+  "editor.fontFamily": "Ubuntu Mono, Red Hat Mono, Fira Code, JetBrains Mono, IBM Plex Mono",
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false,
+    "source.sortImports": true
+  },
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/*-lock.json": true,
+    "**/node_modules": true,
+    "**/dist": true
+  },
+}
